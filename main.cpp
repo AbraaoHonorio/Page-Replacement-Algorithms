@@ -5,7 +5,7 @@ int main(void)
 {
 	PageReplacement *pageReplacement = new PageReplacement();
 
-	pageReplacement->readFile("input/input.txt"); //C://Users//allys//Desktop//Universidade//Conductor//SO2//input//input.in
+	pageReplacement->readFile("input/input.txt"); 
 	pageReplacement->fifo();
 	pageReplacement->otm();
 	pageReplacement->lru();
